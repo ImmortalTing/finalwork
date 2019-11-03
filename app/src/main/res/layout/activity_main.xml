@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/aaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/notice"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:onClick="openMonday"
+        android:padding="20dp"
+        android:text="@string/monday"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/tue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openTuesday"
+        android:padding="20dp"
+        android:text="@string/tuesday"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/wed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openWednesday"
+        android:padding="20dp"
+        android:text="@string/wednesday"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openThursday"
+        android:padding="20dp"
+        android:text="@string/thursday"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/fri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openFriday"
+        android:padding="20dp"
+        android:text="@string/friday"
+        android:textSize="18sp" />
+
+</LinearLayout>
